@@ -1,4 +1,4 @@
-# Omachristmas
+# Oma Christmas
 
 A Christmas theme for Omarchy: midnight blue, snowy text, evergreen, red,
 gold, icy blue, and gingerbread brown. Extends
@@ -13,12 +13,17 @@ From this repository, link your local theme and apply it:
 
 ```sh
 mkdir -p ~/.config/omarchy/themes
-ln -s "$PWD" ~/.config/omarchy/themes/omachristmas
-omarchy theme set omachristmas
+ln -s "$PWD" ~/.config/omarchy/themes/oma-christmas
+omarchy theme set oma-christmas
 ```
 
+The folder name `oma-christmas` makes the selector display **Oma Christmas**.
+If you previously installed it as `omachristmas`, rename that theme directory
+or symlink to `oma-christmas`, then reapply it with the command above.
+The repository folder itself can keep its existing name.
+
 If that destination already exists, inspect it before replacing it. Older
-Omarchy versions use `omarchy-theme-set omachristmas` instead.
+Omarchy versions use `omarchy-theme-set oma-christmas` instead.
 Neovim’s Lazy plugin manager downloads Christmas.nvim on first use; restart
 Neovim and let installation finish. Internet access is needed for that step.
 
@@ -31,8 +36,9 @@ opacity settings**. Use the local working-copy link for the complete theme.
 ## Coverage
 
 - Hyprland: green/red active border; configs for both legacy and Lua versions.
-- Neovim: upstream Christmas UI, green strings/types, red keywords, gold
-  functions/numbers, blue constants, brown preprocessor/markup accents.
+- Neovim: green strings/types/functions, red keywords and shell builtins,
+  snowy numbers/constants. Gold, brown, and ice blue remain occasional
+  search, diagnostic, diff, and markup accents.
 - Alacritty, Ghostty, Kitty, Foot: midnight backgrounds at 90% opacity and a
   matching 16-color palette. Opacity may require restarting the terminal and
   can be overridden by your personal terminal settings.
@@ -60,8 +66,11 @@ Omarchy installation. This theme does not install those applications.
 | Snow | `#ffffff` |
 | Gingerbread | `#c9976b` |
 
-The ANSI magenta slot intentionally uses gingerbread brown. Terminal programs
-that request magenta will therefore use brown.
+ANSI slots intentionally prioritize Christmas colors: blue maps to green,
+magenta to red, yellow to bright green, and cyan to snow white. This keeps
+Eza directories, permissions, and other terminal output festive. Gold, brown,
+and ice blue remain explicit accents rather than dominant ANSI colors.
+BTOP uses green/red/snow graphs, with gold reserved for temperature warnings.
 
 ## Wallpaper
 
