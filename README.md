@@ -65,10 +65,7 @@ that request magenta will therefore use brown.
 
 ## Wallpaper
 
-`backgrounds/01-night-sky-placeholder.png` is a plain 3840×2160 midnight-blue
-placeholder. Replace it with your rendered Christmas wallpaper (PNG, JPEG, or
-WebP). Remove the placeholder when the final image is ready, then reapply the
-theme. A dark wallpaper preserves contrast behind transparent surfaces.
+`backgrounds/omachristmas-background.png` - a dark but warm computer-generated suburban street at Christma - a dark but warm computer-generated suburban street at Christmas 
 
 ## Development
 
