@@ -1,0 +1,7 @@
+@define-color foreground #ffffff;
+@define-color background transparent;
+window#waybar { background: transparent; color: @foreground; }
+tooltip { background: #1a2a3a; color: @foreground; border: 1px solid #3fbd52; }
+#workspaces button { color: @foreground; }
+#workspaces button.active { color: #3fbd52; }
+#workspaces button.urgent { color: #ff5558; }
