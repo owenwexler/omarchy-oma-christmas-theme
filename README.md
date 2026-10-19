@@ -75,7 +75,7 @@ BTOP uses green/red/snow graphs, with gold reserved for temperature warnings.
 
 ## Wallpaper
 
-`backgrounds/omachristmas-background.png` - a dark but warm computer-generated suburban street at Christma - a dark but warm computer-generated suburban street at Christmas 
+`backgrounds/omachristmas-background.png` - a dark but warm computer-generated suburban street at Christmas 
 
 ## Development
 
